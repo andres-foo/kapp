@@ -1,0 +1,17 @@
+{
+  "name": "kapp",
+  "version": "1.0.0",
+  "description": "Kanji App",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  }
+}
